@@ -1,11 +1,22 @@
-html, body {
-    width: 50%;
-    margin: 0 auto;
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(backgroud-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    background-color: beige;
+    width: 15%;
+    padding-left: 20px;
 }
 
 .container {
     width: 360px;
+
 }
 
 #inputField {
@@ -24,12 +35,14 @@ html, body {
     border: 1px solid black;
     vertical-align: middle;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .paragraph-styling {
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+    background-color: azure;
 }
 
 .to-dos {
