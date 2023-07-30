@@ -78,3 +78,11 @@ ul {
 .to-dos {
     margin-top: 25px;
 }
+
+@media (max-width: 1000px)
+{
+    .main-box 
+    {
+        width: 90%;
+    }
+}
